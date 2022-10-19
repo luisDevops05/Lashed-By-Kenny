@@ -3,21 +3,26 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* #A1677A this is the middle color she chose or somthing close to what she picked */
+/* #78557B this is the last color she chose or something close to what she picked */
 /* entire navbar */
+
 .navbar {
-  background-color: black !important;
-  padding-left: 40px;
-  padding-right: 40px;
+  background-color: #d586a0 !important;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* brand link */
 #brand {
   color: white !important;
+  font-size: 25px;
 }
 
 #brandImg {
   vertical-align: middle;
-  height: 45px;
+  height: 55px;
   padding-left: 16px;
 }
 
@@ -31,7 +36,7 @@
 }
 
 .dropdown-menu {
-  background-color: black !important;
+  background-color: #78557b3c !important;
 }
 
 /* dropdown menue background color is set to zero right fix later */
@@ -41,5 +46,5 @@
 
 .navbar-toggler {
   background-color: white;
-  box-shadow: -0.1px 1px 1px 1px rgb(217, 44, 233);
+  box-shadow: -0.1px 1px 1px 1px #d586a0;
 }
