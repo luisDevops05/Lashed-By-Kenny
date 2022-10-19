@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* entire navbar */
+.navbar {
+  background-color: black !important;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* brand link */
+#brand {
+  color: white !important;
+}
+
+#brandImg {
+  vertical-align: middle;
+  height: 45px;
+  padding-left: 16px;
+}
+
+/* begining of the navbar links */
+#navbarNavDropdown {
+  justify-content: end;
+}
+/* all links in nav bar */
+#navbarNavDropdown a {
+  color: white !important;
+}
+
+.dropdown-menu {
+  background-color: black !important;
+}
+
+/* dropdown menue background color is set to zero right fix later */
+.dropdown-menu a:hover {
+  background-color: rgba(255, 0, 0, 0.26);
+}
+
+.navbar-toggler {
+  background-color: white;
+  box-shadow: -0.1px 1px 1px 1px rgb(217, 44, 233);
+}
