@@ -39,12 +39,12 @@
 }
 
 .dropdown-menu {
-  background-color: #78557b3c !important;
+  background-color: #d586a0 !important;
 }
 
 /* dropdown menue background color is set to zero right fix later */
 .dropdown-menu a:hover {
-  background-color: rgba(255, 0, 0, 0.26);
+  background-color: rgba(253, 247, 247, 0.26);
 }
 
 .navbar-toggler {
