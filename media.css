@@ -9,6 +9,25 @@
     padding-left: 0;
     padding-right: 0;
   }
+  .about1 {
+    grid-template-columns: 380px;
+    padding-top: 30px;
+    text-align: center;
+    gap: 200px;
+    margin-top: 150px;
+    margin-bottom: 60px;
+  }
+  .footer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .fCon a {
+    padding: 5px;
+    font-size: 18px;
+  }
+  #insta {
+    font-size: 18px;
+  }
 }
 @media only screen and (max-width: 390px) {
   .navbar {
