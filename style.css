@@ -10,6 +10,9 @@
 /* #A1677A this is the middle color she chose or somthing close to what she picked */
 /* #78557B this is the last color she chose or something close to what she picked */
 /* entire navbar */
+/* body{
+  background-image: linear-gradient(#b96380, white);
+} */
 
 .navbar {
   background-color: #d586a0 !important;
@@ -30,6 +33,7 @@
 }
 
 /* begining of the navbar links */
+
 #navbarNavDropdown {
   justify-content: end;
 }
@@ -44,12 +48,13 @@
 
 /* dropdown menue background color is set to zero right fix later */
 .dropdown-menu a:hover {
-  background-color: rgba(253, 247, 247, 0.26);
+  background-color: rgba(253, 247, 247, 0.342);
 }
 
 .navbar-toggler {
   background-color: white;
   box-shadow: -0.1px 1px 1px 1px #d586a0;
+  cursor: pointer;
 }
 
 .hero {
@@ -63,14 +68,80 @@
   display: flexbox;
   justify-content: center;
   align-content: center;
+
+  padding-top: 40px;
 }
 
 .heroQ {
-  padding-top: 40px;
+  margin-top: 150px;
 }
 
 .heroQ h2 {
   color: white;
   text-shadow: 2px 2px 2px black;
   text-align: center;
+}
+
+.about1 {
+  display: grid;
+  grid-template-columns: 800px 400px;
+  grid-template-rows: 400px;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 80px;
+  align-items: center;
+}
+.aboutImg {
+  text-align: center;
+}
+
+.aboutImg img {
+  border-radius: 50%;
+  height: 350px;
+  width: 350px;
+}
+
+.content h2 {
+  text-align: center;
+  font-size: 40px;
+  border-bottom: solid 4px black;
+}
+
+.content p {
+  font-size: 18px;
+  line-height: 1.5 !important;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: #d586a0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: 80px;
+}
+.fCon h6 {
+  font-size: 18px;
+  color: white;
+  text-shadow: 2px 1px 1px black;
+}
+
+.fCon a {
+  display: inline;
+  padding: 10px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.fCon a:hover {
+  color: #78557b;
+}
+
+#insta {
+  font-size: 25px;
 }
