@@ -68,7 +68,6 @@
   }
   .about1 {
     grid-template-columns: 340px;
-    margin-left: 10px;
   }
   .recentClients {
     grid-template-columns: 300px;
