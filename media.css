@@ -4,13 +4,17 @@
   }
 }
 
+/* 414 is the most updated version on media */
 @media only screen and (max-width: 414px) {
+  .hero {
+    height: 150px;
+  }
   .navbar {
     padding-left: 0;
     padding-right: 0;
   }
   .about1 {
-    grid-template-columns: 380px;
+    grid-template-columns: 360px;
     padding-top: 30px;
     text-align: center;
     gap: 200px;
@@ -32,7 +36,7 @@
     text-align: left;
   }
   .recentClients {
-    grid-template-columns: 350px;
+    grid-template-columns: 320px;
     grid-template-rows: repeat(5, 350px);
   }
 
@@ -41,9 +45,11 @@
     width: 250px;
   }
 
-  .ClientCon:hover {
-    transform: scale(0.2);
-    z-index: 1;
+  .fCon h6 {
+    font-size: 13px;
+  }
+  .fCon a {
+    font-size: 15px;
   }
 }
 
@@ -58,6 +64,12 @@
   .navbar {
     padding-left: 0;
     padding-right: 0;
+  }
+  .about1 {
+    grid-template-columns: 340px;
+  }
+  .recentClients {
+    grid-template-columns: 300px;
   }
 }
 
