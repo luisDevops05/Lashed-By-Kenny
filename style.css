@@ -10,9 +10,9 @@
 /* #A1677A this is the middle color she chose or somthing close to what she picked */
 /* #78557B this is the last color she chose or something close to what she picked */
 /* entire navbar */
-/* body{
-  background-image: linear-gradient(#b96380, white);
-} */
+body {
+  background-image: linear-gradient(#b963809b, white);
+}
 
 .navbar {
   background-color: #d586a0 !important;
@@ -103,7 +103,7 @@
 
 .content h2 {
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   border-bottom: solid 4px black;
 }
 
@@ -111,6 +111,55 @@
   font-size: 18px;
   line-height: 1.5 !important;
   margin-top: 40px;
+}
+
+/* start of recent clients syling */
+.clientsMain {
+  margin-top: 125px;
+  margin-bottom: 125px;
+}
+.headerClients h2 {
+  text-align: center;
+  margin-bottom: 80px;
+  border-bottom: solid 4px black;
+  font-size: 45px;
+}
+.recentClients {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+  grid-template-columns: repeat(5, 300px);
+  grid-template-rows: 350px;
+}
+.clientCon {
+  border-radius: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  transition: 1s;
+}
+.clientCon:hover {
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+.C1 {
+  background-image: url(".//images/recentClient1.jpeg");
+}
+.C2 {
+  background-image: url(".//images/recentClient2.jpeg");
+}
+
+.C3 {
+  background-image: url(".//images/recentClient3.jpeg");
+}
+.C4 {
+  background-image: url(".//images/recentClient4.jpeg");
+}
+
+.C5 {
+  background-image: url(".//images/recentClient5.jpeg");
 }
 
 footer {
