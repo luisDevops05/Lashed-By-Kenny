@@ -10,12 +10,13 @@
 /* #A1677A this is the middle color she chose or somthing close to what she picked */
 /* #78557B this is the last color she chose or something close to what she picked */
 /* entire navbar */
+/* #78557bbb this collor is really good */
 body {
-  background-image: linear-gradient(#d67897, white);
+  background-image: linear-gradient(#78557bbb, #d586a0);
 }
 
 .navbar {
-  background-color: #d67897 !important;
+  background-color: #78557b9f !important;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -63,7 +64,7 @@ body {
 }
 
 .hero {
-  background-image: url(".//images/transparentLashes.png") !important;
+  background-image: url(".//images/heroImgN.png") !important;
   height: 300px;
   border-bottom: solid rgb(255, 252, 252) 1px;
   border-top: solid rgb(255, 252, 252) 1px;
@@ -175,7 +176,50 @@ body {
 .C5 {
   background-image: url(".//images/recentClient5.jpeg");
 }
+.C6 {
+  background-image: url(".//images/ModelForAbout.jpeg");
+}
 
+/* how to book section */
+.howToBookChild {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.hTBHeader {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-bottom: solid 4px rgb(255, 255, 255);
+  color: white;
+  text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
+}
+.hTBInstructions p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.hTBInstructions li {
+  color: white;
+}
+.hTBInstructions h3 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  margin-top: 50px;
+  text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
+}
+.hTBInstructions span {
+  color: red;
+}
+
+.howToBook {
+  margin-bottom: 45px;
+}
+
+/* start of footer */
 footer {
   background-color: #d586a0;
 }
@@ -187,6 +231,7 @@ footer {
   padding-left: 25px;
   padding-right: 25px;
   height: 80px;
+  border-top: white solid 1px;
 }
 .fCon h6 {
   font-size: 18px;
