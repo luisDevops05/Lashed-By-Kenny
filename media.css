@@ -86,7 +86,9 @@
     gap: 200px;
     margin-top: 150px;
     margin-bottom: 60px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    gap: 0;
+    margin-top: 20px;
   }
   .footer {
     padding-left: 0 !important;
@@ -94,7 +96,7 @@
   }
   .fCon a {
     padding: 5px;
-    font-size: 18px;
+    font-size: 13px;
   }
   #insta {
     font-size: 18px;
