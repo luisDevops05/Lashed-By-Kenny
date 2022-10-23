@@ -161,6 +161,12 @@
     grid-template-columns: 250px;
     grid-template-rows: repeat(6, 220);
   }
+  #brand {
+    font-size: 20px;
+  }
+  #brandImg {
+    padding-left: 10px;
+  }
 }
 
 @media only screen and (max-width: 352px) {
