@@ -79,6 +79,11 @@
   .fCon a {
     font-size: 15px;
   }
+
+  .policies {
+    grid-template-columns: repeat(1, 400px) !important;
+    gap: 80px !important;
+  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -138,6 +143,10 @@
   .fCon a {
     font-size: 9px;
   }
+  .policies {
+    grid-template-columns: repeat(1, 320px) !important;
+    gap: 140px !important;
+  }
 }
 
 @media only screen and (max-width: 390px) {
@@ -166,6 +175,11 @@
   }
   #brandImg {
     padding-left: 10px;
+  }
+  .policies {
+    grid-template-columns: repeat(1, 290px) !important;
+    gap: 190px !important;
+    margin-top: 150px !important;
   }
 }
 
