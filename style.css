@@ -1,10 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Changa&family=Slabo+27px&family=Zen+Dots&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Changa&family=Slabo+27px&family=Zen+Dots&display=swap"); */
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Changa", sans-serif;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 /* #A1677A this is the middle color she chose or somthing close to what she picked */
@@ -89,6 +90,8 @@ body {
   text-align: center;
 }
 
+/* start of about section */
+
 .about1 {
   display: grid;
   grid-template-columns: 800px 400px;
@@ -97,15 +100,17 @@ body {
   margin-top: 40px;
   gap: 80px;
   align-items: center;
+  margin-bottom: 120px;
 }
 .aboutImg {
   text-align: center;
+  border-left: solid white 3px;
 }
 
 .aboutImg img {
   border-radius: 2%;
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  width: 250px;
 }
 
 .content h2 {
@@ -122,7 +127,9 @@ body {
   line-height: 1.5 !important;
   margin-top: 40px;
   /* this is good for text */
-  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  /* text-shadow: 1px 1px 10px rgb(0, 0, 0); */
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.774);
+
   color: white;
 }
 
@@ -143,8 +150,8 @@ body {
   display: grid;
   justify-content: center;
   gap: 20px;
-  grid-template-columns: repeat(6, 300px);
-  grid-template-rows: 350px;
+  grid-template-columns: repeat(6, 250px);
+  grid-template-rows: 250px;
 }
 .clientCon {
   border-radius: 10px;
@@ -200,16 +207,19 @@ body {
   font-weight: bold;
   font-size: 18px;
   color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.424);
 }
 .hTBInstructions li {
   color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.774);
 }
-.hTBInstructions h3 {
+
+.hTBInstructions h4 {
   text-align: center;
+  font-size: 25px;
   color: white;
-  font-size: 30px;
-  margin-top: 50px;
   text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
+  margin-top: 60px;
 }
 .hTBInstructions span {
   color: red;
