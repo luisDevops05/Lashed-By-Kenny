@@ -226,6 +226,10 @@ body {
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.774);
 }
 
+.hTBInstructions ol {
+  margin-top: 50px;
+}
+
 .hTBInstructions h4 {
   text-align: center;
   font-size: 25px;
@@ -236,6 +240,8 @@ body {
 }
 .hTBInstructions span {
   color: red;
+
+  padding-bottom: 10px;
 }
 
 .howToBook {
