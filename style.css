@@ -12,12 +12,14 @@
 /* #78557B this is the last color she chose or something close to what she picked */
 /* entire navbar */
 /* #78557bbb this collor is really good */
+/* #e0afce */
 body {
-  background-image: linear-gradient(#78557bbb, #d586a0);
+  /* background-image: linear-gradient(#78557bbb, #d586a0); */
+  background-color: #fabbe0;
 }
 
 .navbar {
-  background-color: #78557b9f !important;
+  background-color: #e0afce !important;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -65,7 +67,7 @@ body {
 }
 
 .hero {
-  background-image: url(".//images/heroImgN.png") !important;
+  background-image: url(".//images/blossomHero.jpeg") !important;
   height: 300px;
   border-bottom: solid rgb(255, 252, 252) 1px;
   border-top: solid rgb(255, 252, 252) 1px;
@@ -108,7 +110,7 @@ body {
 }
 
 .aboutImg img {
-  border-radius: 2%;
+  border-radius: 50%;
   height: 250px;
   width: 250px;
 }
@@ -118,6 +120,7 @@ body {
   font-size: 45px;
   border-bottom: solid 4px rgb(255, 255, 255);
   color: white;
+  /* color: black; */
   /* this text shadow is good for headings */
   text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
 }
@@ -126,11 +129,12 @@ body {
   font-size: 18px;
   line-height: 1.5 !important;
   margin-top: 40px;
+  color: white !important;
   /* this is good for text */
   /* text-shadow: 1px 1px 10px rgb(0, 0, 0); */
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.774);
 
-  color: white;
+  /* color: white; */
 }
 
 /* start of recent clients syling */
@@ -142,6 +146,7 @@ body {
   text-align: center;
   margin-bottom: 80px;
   border-bottom: solid 4px rgb(255, 255, 255);
+  /* color: white; */
   color: white;
   font-size: 45px;
   text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
@@ -200,6 +205,7 @@ body {
   margin-bottom: 50px;
   border-bottom: solid 4px rgb(255, 255, 255);
   color: white;
+  /* color: black; */
   text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
 }
 .hTBInstructions p {
@@ -207,10 +213,12 @@ body {
   font-weight: bold;
   font-size: 18px;
   color: white;
+  /* color: black; */
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.424);
 }
 .hTBInstructions li {
   color: white;
+  /* color: black; */
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.774);
 }
 
@@ -218,6 +226,7 @@ body {
   text-align: center;
   font-size: 25px;
   color: white;
+  /* color: black; */
   text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
   margin-top: 60px;
 }
