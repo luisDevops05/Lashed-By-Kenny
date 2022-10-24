@@ -16,6 +16,10 @@
 body {
   /* background-image: linear-gradient(#78557bbb, #d586a0); */
   background-color: #fabbe0;
+  background-image: url(".//images/mobileBackground.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: repeat-y;
 }
 
 .navbar {
@@ -240,7 +244,7 @@ body {
 
 /* start of footer */
 footer {
-  background-color: #d586a0;
+  background-color: #e0afce;
 }
 
 .footer {

@@ -44,6 +44,11 @@
 }
 
 @media only screen and (max-width: 540px) {
+  body {
+    background-image: url(".//images/mobileBackground.png");
+    background-position: center;
+    background-size: contain;
+  }
   .about1 {
     gap: 5px;
     grid-template-columns: 400px;
