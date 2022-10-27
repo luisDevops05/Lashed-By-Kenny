@@ -41,9 +41,16 @@
     grid-template-rows: 500px;
     grid-template-columns: 420px 230px;
   }
+
+  .heroMG h2 {
+    margin-top: 320px;
+  }
 }
 
 @media only screen and (max-width: 540px) {
+  .heroMG h2 {
+    margin-top: 300px;
+  }
   body {
     background-image: url(".//images/mobileBackground.png");
     background-position: center;
@@ -92,6 +99,10 @@
 }
 
 @media only screen and (max-width: 414px) {
+  .heroMG h2 {
+    margin-top: 45px;
+    font-size: 35px;
+  }
   .hero {
     height: 150px;
   }

@@ -79,10 +79,18 @@ body {
   background-size: cover;
 }
 .heroMG {
-  display: flexbox;
+  display: flex;
   justify-content: center;
   align-content: center;
   padding-top: 40px;
+}
+
+.heroMG h2 {
+  font-size: 60px;
+  font-stretch: extra-expanded;
+  margin-top: 250px;
+  color: white;
+  text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
 }
 
 .heroQ {
