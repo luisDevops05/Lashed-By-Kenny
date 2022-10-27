@@ -291,3 +291,49 @@ footer {
 #insta {
   font-size: 25px;
 }
+
+/* .fullSets {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: repeat(2, 300px);
+  gap: 10px;
+  justify-content: center;
+
+  margin-top: 120px;
+}
+
+.set {
+  border: solid white 1px;
+  color: white;
+  text-shadow: 1px 1px 10px rgb(0, 0, 0);
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.294);
+} */
+
+/* .set h2 {
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.set li {
+  font-size: 18px;
+  text-align: left;
+}
+
+.now {
+  text-align: center !important;
+  text-shadow: none;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+
+  background-color: #78557bc7;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+.now:hover {
+  background-color: white;
+  color: #78557b;
+} */
