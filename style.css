@@ -13,6 +13,9 @@
 /* entire navbar */
 /* #78557bbb this collor is really good */
 /* #e0afce */
+
+/* important policy color #fe3fc3b3
+ */
 body {
   /* background-image: linear-gradient(#78557bbb, #d586a0); */
   background-color: #fabbe0;
@@ -122,9 +125,9 @@ body {
 }
 
 .aboutImg img {
-  border-radius: 50%;
-  height: 250px;
-  width: 250px;
+  border-radius: 20px;
+  height: 270px;
+  width: 270px;
 }
 
 .content h2 {
@@ -247,7 +250,7 @@ body {
   margin-top: 60px;
 }
 .hTBInstructions span {
-  color: red;
+  color: #fe3fc3b3;
 
   padding-bottom: 10px;
 }
