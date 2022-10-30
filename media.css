@@ -99,6 +99,20 @@
 }
 
 @media only screen and (max-width: 414px) {
+  p {
+    font-size: 13px !important;
+  }
+
+  .L ul li {
+    font-size: 14px !important;
+  }
+
+  .L h3 {
+    font-size: 15px;
+  }
+  .disclaimer h1 {
+    font-size: 25px !important;
+  }
   .heroMG h2 {
     margin-top: 45px;
     font-size: 35px;
@@ -164,8 +178,38 @@
     gap: 140px !important;
   }
 }
+@media only screen and (max-width: 412px) {
+  p {
+    font-size: 13px !important;
+  }
 
-@media only screen and (max-width: 390px) {
+  .L ul li {
+    font-size: 13px !important;
+  }
+
+  .L h3 {
+    font-size: 15px !important;
+  }
+  .disclaimer h1 {
+    font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 393px) {
+  p {
+    font-size: 13px !important;
+  }
+
+  .L ul li {
+    font-size: 13px !important;
+  }
+
+  .L h3 {
+    font-size: 15px !important;
+  }
+  .disclaimer h1 {
+    font-size: 20px !important;
+  }
   .navbar {
     padding-left: 0;
     padding-right: 0;
@@ -173,6 +217,20 @@
 }
 
 @media only screen and (max-width: 375px) {
+  p {
+    font-size: 13px !important;
+  }
+
+  .L ul li {
+    font-size: 13px !important;
+  }
+
+  .L h3 {
+    font-size: 15px !important;
+  }
+  .disclaimer h1 {
+    font-size: 20px !important;
+  }
   .navbar {
     padding-left: 0;
     padding-right: 0;
