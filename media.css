@@ -1,5 +1,25 @@
 /* All the media is only up to date witht he landing page */
 
+/* 
+
+font size for p tags
+heading 1 should be 20 and heading 3 should be 15px for all small devices
+
+p {
+    font-size: 13px !important;
+  }
+
+  .L ul li {
+    font-size: 13px !important;
+  }
+
+  .L h3 {
+    font-size: 15px !important;
+  }
+  .disclaimer h1 {
+    font-size: 20px !important;
+  } */
+
 @media only screen and (max-width: 2886px) {
   .hero {
     height: 500px;
@@ -155,8 +175,8 @@
   }
 
   .aboutImg img {
-    height: 210px;
-    width: 220px;
+    height: 400px;
+    width: 280px;
   }
   /* .aboutImg {
     grid-row: 2/2;
@@ -229,7 +249,7 @@
     font-size: 15px !important;
   }
   .disclaimer h1 {
-    font-size: 20px !important;
+    font-size: 17px !important;
   }
   .navbar {
     padding-left: 0;
