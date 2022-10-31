@@ -312,9 +312,8 @@ footer {
   text-align: center;
   border-radius: 5px;
   box-shadow: 2px 2px 20px 20px rgba(0, 0, 0, 0.294);
-} */
-
-/* .set h2 {
+}
+ .set h2 {
   text-align: center;
   padding-bottom: 15px;
   padding-top: 10px;
@@ -340,3 +339,23 @@ footer {
   background-color: white;
   color: #78557b;
 } */
+
+.alertCon {
+  display: grid;
+  grid-template-columns: 400px;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.alertChild {
+  text-align: center;
+  color: white;
+  font-size: 18px;
+  line-height: 1.5;
+  padding: 20px;
+  background-color: #78557b;
+  border-radius: 28px;
+  box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.493);
+  display: none;
+}
