@@ -359,3 +359,14 @@ footer {
   box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.493);
   display: none;
 }
+
+/* .calander {
+  display: grid;
+  grid-template-columns: 800px;
+  grid-template-rows: 400px;
+  justify-content: center;
+}
+
+.mainCalCon {
+  height: 500px;
+} */
