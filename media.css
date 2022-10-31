@@ -197,6 +197,10 @@ p {
     grid-template-columns: repeat(1, 320px) !important;
     gap: 140px !important;
   }
+
+  .alertCon {
+    grid-template-columns: 320px;
+  }
 }
 @media only screen and (max-width: 412px) {
   p {
@@ -274,6 +278,9 @@ p {
     grid-template-columns: repeat(1, 290px) !important;
     gap: 190px !important;
     margin-top: 150px !important;
+  }
+  .alertCon {
+    grid-template-columns: 300px;
   }
 }
 
