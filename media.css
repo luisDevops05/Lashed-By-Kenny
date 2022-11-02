@@ -131,7 +131,8 @@ p {
     font-size: 15px;
   }
   .disclaimer h1 {
-    font-size: 25px !important;
+    font-size: 30px !important;
+    text-align: left !important;
   }
   .heroMG h2 {
     /* margin-top: 45px; */
@@ -197,14 +198,13 @@ p {
   }
   .policies {
     grid-template-columns: repeat(1, 320px) !important;
-    gap: 140px !important;
+    gap: 10px !important;
+    grid-template-rows: repeat(5, 380px) !important;
+    /* gap: 140px !important; */
   }
 
   .alertCon {
     grid-template-columns: 320px;
-  }
-  .policies {
-    gap: 10px !important;
   }
 }
 @media only screen and (max-width: 412px) {
@@ -221,6 +221,7 @@ p {
   }
   .disclaimer h1 {
     font-size: 20px !important;
+    text-align: left !important;
   }
   .policies {
     gap: 10px !important;
@@ -240,7 +241,8 @@ p {
     font-size: 15px !important;
   }
   .disclaimer h1 {
-    font-size: 20px !important;
+    font-size: 30px !important;
+    text-align: left !important;
   }
   .navbar {
     padding-left: 0;
@@ -264,7 +266,8 @@ p {
     font-size: 15px !important;
   }
   .disclaimer h1 {
-    font-size: 17px !important;
+    font-size: 30px !important;
+    text-align: left !important;
   }
   .navbar {
     padding-left: 0;
@@ -287,15 +290,16 @@ p {
   }
   .policies {
     grid-template-columns: repeat(1, 290px) !important;
-    gap: 190px !important;
-    margin-top: 150px !important;
+    grid-template-rows: repeat(5, 320px);
+    /* gap: 190px !important; */
+    /* margin-top: 150px !important; */
   }
   .alertCon {
     grid-template-columns: 300px;
   }
-  .policies {
+  /* .policies {
     gap: 10px !important;
-  }
+  } */
 }
 
 @media only screen and (max-width: 352px) {
