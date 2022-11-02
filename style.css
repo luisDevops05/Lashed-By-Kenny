@@ -9,6 +9,10 @@ p {
 a {
   font-family: "Courier Prime", monospace !important;
 }
+
+h6 {
+  font-family: "Courier Prime", monospace !important;
+}
 * {
   padding: 0;
   margin: 0;
@@ -109,6 +113,7 @@ body {
   margin-top: 250px;
   color: white;
   text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
+  font-family: "Caveat", cursive;
 }
 
 .heroQ {
@@ -120,6 +125,7 @@ body {
   text-shadow: 1px 1px 2px #78557b;
   font-size: 45px;
   text-align: center;
+  font-family: "Caveat", cursive;
 }
 
 /* start of about section */
@@ -394,3 +400,16 @@ footer {
 .mainCalCon {
   height: 500px;
 } */
+
+.calCon {
+  display: grid;
+  grid-template-columns: 750px;
+  grid-template-rows: 1fr auto;
+  justify-content: center;
+  align-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.calMain {
+  grid-row: 4/5;
+}
