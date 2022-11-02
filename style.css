@@ -17,8 +17,9 @@
 /* important policy color #fe3fc3b3
  */
 body {
-  /* background-image: linear-gradient(#78557bbb, #d586a0); */
-  background-color: #fabbe0;
+  /* background-image: linear-gradient(#78557bbb, #d586a0) !important; *
+  /* Changed background color to white for/ */
+  /* background-color: #fabbe0; */
   background-image: url(".//images/mobileBackground.png");
   background-position: center;
   background-size: contain;
@@ -26,7 +27,9 @@ body {
 }
 
 .navbar {
-  background-color: #e0afce !important;
+  /* changing nav bar color */
+  /* background-color: #e0afce !important; */
+  background-color: black !important;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -37,10 +40,13 @@ body {
   font-size: 25px;
 }
 #brand:hover {
-  color: #78557b !important;
+  /* color: #78557b !important;  changed the brand color*/
+  color: hsl(335deg 100% 78%) !important;
 }
 #navLinks a:hover {
-  color: #78557b !important;
+  /* color: #78557b !important;
+  color: white !important;  changed teh links color to the hovering optin on this color*/
+  color: hsl(335deg 100% 78%) !important;
 }
 #brandImg {
   vertical-align: middle;
@@ -59,7 +65,7 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #d586a0 !important;
+  background-color: #000000a4 !important;
 }
 
 /* dropdown menue background color is set to zero right fix later */
@@ -134,20 +140,22 @@ body {
   text-align: center;
   font-size: 45px;
   border-bottom: solid 4px rgb(255, 255, 255);
-  color: white;
+  /* color: white; changed the color*/
+  color: hsl(335deg 100% 78%);
   /* color: black; */
   /* this text shadow is good for headings */
-  text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
+  /* text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787); removed text shadow */
 }
 
 .content p {
   font-size: 18px;
   line-height: 1.5 !important;
   margin-top: 40px;
-  color: white !important;
+  /* color: white !important;  changed the color*/
+  color: black;
   /* this is good for text */
   /* text-shadow: 1px 1px 10px rgb(0, 0, 0); */
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.774);
+  /* text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.774); */
 
   /* color: white; */
 }
@@ -162,9 +170,10 @@ body {
   margin-bottom: 80px;
   border-bottom: solid 4px rgb(255, 255, 255);
   /* color: white; */
-  color: white;
+  /* color: white; */
+  color: hsl(335deg 100% 78%);
   font-size: 45px;
-  text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
+  /* text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787); */
 }
 .recentClients {
   display: grid;
@@ -261,7 +270,8 @@ body {
 
 /* start of footer */
 footer {
-  background-color: #e0afce;
+  /* background-color: #e0afce; */
+  background-color: black;
 }
 
 .footer {
@@ -288,7 +298,7 @@ footer {
   text-decoration: none;
 }
 .fCon a:hover {
-  color: #78557b;
+  color: hsl(335deg 100% 78%);
 }
 
 #insta {
@@ -354,7 +364,8 @@ footer {
   font-size: 18px;
   line-height: 1.5;
   padding: 20px;
-  background-color: #78557b;
+  /* background-color: #78557b; */
+  background-color: hsl(335deg 100% 78%);
   border-radius: 28px;
   box-shadow: 4px 4px 20px 4px rgba(0, 0, 0, 0.493);
   display: none;

@@ -9,14 +9,16 @@
   align-items: center;
 }
 .L h2 {
-  color: rgb(248, 6, 6);
-  text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
+  /* color: rgb(248, 6, 6);  changed color*/
+  color: hsl(335deg 100% 78%);
+  /* text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787); */
   text-align: center;
 }
 
 .L h3 {
-  color: white;
-  text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
+  /* color: white; changed color*/
+  color: black;
+  /* text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787); removed text shadow */
   text-align: center;
   font-size: 20px;
   padding-left: 20px;
@@ -25,8 +27,9 @@
 
 .L ul li {
   color: white;
+  color: black;
   margin-top: 30px;
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.774);
+  /* text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.774); */
   font-size: 18px;
   line-height: 1.5;
 }
@@ -36,8 +39,9 @@
 }
 
 .disclaimer h1 {
-  color: white;
-  text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
+  /* color: white; changed color */
+  color: hsl(335deg 100% 78%);
+  /* text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787); removed text shadow */
   margin-top: 40px;
   text-align: center;
   border-bottom: solid 4px white;
