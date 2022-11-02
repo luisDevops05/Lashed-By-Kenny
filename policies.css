@@ -1,7 +1,7 @@
 .policies {
   display: grid;
   grid-template-columns: repeat(1, 700px);
-  grid-template-rows: repeat(5, 350px);
+  grid-template-rows: repeat(8, 500px);
   margin-top: 80px;
   margin-bottom: 80px;
   gap: 30px;
