@@ -313,7 +313,7 @@ p {
   } */
 
   .calCon {
-    grid-template-columns: 300px;
+    grid-template-columns: 250px;
   }
 }
 
