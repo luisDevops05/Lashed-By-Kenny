@@ -134,11 +134,13 @@ p {
     font-size: 25px !important;
   }
   .heroMG h2 {
-    margin-top: 45px;
+    /* margin-top: 45px; */
+    margin-top: 125px;
     font-size: 35px;
   }
   .hero {
-    height: 150px;
+    /* height: 150px; */
+    height: 250px;
   }
   .navbar {
     padding-left: 0;
@@ -146,8 +148,8 @@ p {
   }
   .about1 {
     grid-template-columns: 360px;
-    grid-template-rows: 480px 250px;
-    padding-top: 30px;
+    grid-template-rows: 480px 450px;
+    /* padding-top: 30px; */
     text-align: center;
 
     margin-top: 150px;
@@ -200,6 +202,9 @@ p {
 
   .alertCon {
     grid-template-columns: 320px;
+  }
+  .policies {
+    gap: 10px !important;
   }
 }
 @media only screen and (max-width: 412px) {
