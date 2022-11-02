@@ -13,6 +13,7 @@
   color: hsl(335deg 100% 78%);
   /* text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787); */
   text-align: center;
+  font-family: "Caveat", cursive;
 }
 
 .L h3 {
@@ -23,6 +24,7 @@
   font-size: 20px;
   padding-left: 20px;
   text-align: left;
+  font-family: "Courier Prime", monospace;
 }
 
 .L ul li {
@@ -32,6 +34,7 @@
   /* text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.774); */
   font-size: 18px;
   line-height: 1.5;
+  font-family: "Courier Prime", monospace;
 }
 .L {
   border-bottom: solid rgb(255, 255, 255) 2px;
@@ -46,4 +49,5 @@
   text-align: center;
   border-bottom: solid 4px white;
   padding-bottom: 40px;
+  font-family: "Caveat", cursive;
 }

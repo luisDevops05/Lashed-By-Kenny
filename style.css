@@ -1,5 +1,14 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Changa&family=Slabo+27px&family=Zen+Dots&display=swap"); */
 
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Courier+Prime&display=swap");
+
+p {
+  font-family: "Courier Prime", monospace !important;
+}
+a {
+  font-family: "Courier Prime", monospace !important;
+}
 * {
   padding: 0;
   margin: 0;
@@ -142,6 +151,8 @@ body {
   border-bottom: solid 4px rgb(255, 255, 255);
   /* color: white; changed the color*/
   color: hsl(335deg 100% 78%);
+  font-family: "Caveat", cursive;
+
   /* color: black; */
   /* this text shadow is good for headings */
   /* text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787); removed text shadow */
@@ -173,6 +184,8 @@ body {
   /* color: white; */
   color: hsl(335deg 100% 78%);
   font-size: 45px;
+  font-family: "Caveat", cursive;
+
   /* text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787); */
 }
 .recentClients {
