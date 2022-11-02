@@ -222,6 +222,9 @@ p {
   .disclaimer h1 {
     font-size: 20px !important;
   }
+  .policies {
+    gap: 10px !important;
+  }
 }
 
 @media only screen and (max-width: 393px) {
@@ -242,6 +245,9 @@ p {
   .navbar {
     padding-left: 0;
     padding-right: 0;
+  }
+  .policies {
+    gap: 10px !important;
   }
 }
 
@@ -287,6 +293,9 @@ p {
   .alertCon {
     grid-template-columns: 300px;
   }
+  .policies {
+    gap: 10px !important;
+  }
 }
 
 @media only screen and (max-width: 352px) {
@@ -301,6 +310,9 @@ p {
 @media only screen and (max-width: 319px) {
   #brandImg {
     padding-left: 0 !important;
+  }
+  .policies {
+    gap: 10px !important;
   }
 }
 
@@ -328,5 +340,8 @@ p {
   .aboutImg img {
     height: 150px;
     width: 150px;
+  }
+  .policies {
+    gap: 10px !important;
   }
 }
