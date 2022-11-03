@@ -43,6 +43,7 @@ body {
   /* changing nav bar color */
   /* background-color: #e0afce !important; */
   background-color: black !important;
+  background-color: hsl(335deg 100% 78%) !important  ;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -93,7 +94,10 @@ body {
 }
 
 .hero {
-  background-image: url(".//images/blossomHero.jpeg") !important;
+  /* background-image: url(".//images/blossomHero.jpeg") !important; */
+  /* background-image: url(".//images/mainCEOIMG.jpg" !i); */
+
+  background-image: url(".//images/mainCEOIMG.jpg");
   height: 300px;
   border-bottom: solid rgb(255, 252, 252) 1px;
   border-top: solid rgb(255, 252, 252) 1px;
@@ -113,7 +117,8 @@ body {
   margin-top: 250px;
   color: white;
   text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
-  font-family: "Caveat", cursive;
+
+  font-family: "Courier Prime", monospace !important;
 }
 
 .heroQ {
