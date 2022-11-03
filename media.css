@@ -125,6 +125,23 @@ p {
   }
 }
 
+@media only screen and (max-width: 430px) {
+  .about1 {
+    grid-template-rows: 485px 500px;
+    gap: 40px;
+  }
+
+  .aboutImg img {
+    height: 450px;
+    width: 380px;
+  }
+
+  .policies {
+    grid-template-rows: auto !important;
+    gap: 0 !important;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   p {
     font-size: 13px !important;
