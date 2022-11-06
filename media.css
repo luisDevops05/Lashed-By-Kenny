@@ -146,6 +146,11 @@ p {
   .fCon a {
     font-size: 9px;
   }
+
+  .servicesCon {
+    grid-template-columns: 200px 200px;
+    font-size: 19px;
+  }
 }
 
 @media only screen and (max-width: 414px) {
@@ -241,6 +246,10 @@ p {
   .calCon {
     grid-template-columns: 360px;
     grid-template-rows: auto !important;
+  }
+
+  .servicesCon {
+    grid-template-columns: 170px 170px;
   }
 }
 @media only screen and (max-width: 412px) {
