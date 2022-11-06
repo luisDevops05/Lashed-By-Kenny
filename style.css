@@ -42,7 +42,6 @@ body {
 .navbar {
   /* changing nav bar color */
   /* background-color: #e0afce !important; */
-  background-color: black !important;
   background-color: hsl(335deg 100% 78%) !important  ;
   padding-left: 25px;
   padding-right: 25px;
@@ -137,7 +136,7 @@ body {
 
 .about1 {
   display: grid;
-  grid-template-columns: 800px 400px;
+  grid-template-columns: 980px;
   grid-template-rows: 400px;
   justify-content: center;
   margin-top: 40px;
@@ -158,7 +157,7 @@ body {
 
 .content h2 {
   text-align: center;
-  font-size: 45px;
+  font-size: 50px;
   border-bottom: solid 4px rgb(255, 255, 255);
   /* color: white; changed the color*/
   color: hsl(335deg 100% 78%);
@@ -295,7 +294,8 @@ body {
 /* start of footer */
 footer {
   /* background-color: #e0afce; */
-  background-color: black;
+  /* background-color: black; */
+  background-color: hsl(335deg 100% 78%) !important  ;
 }
 
 .footer {
@@ -409,12 +409,18 @@ footer {
 .calCon {
   display: grid;
   grid-template-columns: 750px;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: auto;
   justify-content: center;
   align-content: center;
   margin-top: 80px;
   margin-bottom: 80px;
+  gap: 45px;
 }
-.calMain {
-  grid-row: 4/5;
+
+.buyNow {
+  color: white;
+  text-decoration: none;
+  background-color: hsl(335deg 100% 78%);
+  padding: 1.5px 12px;
+  border-radius: 5px;
 }

@@ -28,7 +28,7 @@ p {
 
 @media only screen and (max-width: 1280px) {
   .about1 {
-    grid-template-columns: 550px 250px;
+    grid-template-columns: 950px;
   }
   .aboutImg img {
     height: 210px;
@@ -46,23 +46,23 @@ p {
 
 @media only screen and (max-width: 1024px) {
   .about1 {
-    gap: 10px;
-    grid-template-columns: 650px 300px;
+    /* gap: 10px; */
+    grid-template-columns: 650px;
   }
-  .aboutImg {
+  /* .aboutImg {
     border-left: none;
-  }
+  } */
 
-  .recentClients {
+  /* .recentClients {
     grid-template-columns: repeat(3, 220px);
     grid-template-rows: repeat(2, 220px);
-  }
+  } */
 }
 
 @media only screen and (max-width: 912px) {
   .about1 {
     grid-template-rows: 500px;
-    grid-template-columns: 420px 230px;
+    grid-template-columns: 680px;
   }
 
   .heroMG h2 {
@@ -82,7 +82,7 @@ p {
   .about1 {
     gap: 5px;
     grid-template-columns: 400px;
-    grid-template-rows: 420px 250px;
+    grid-template-rows: 500px;
   }
   .content {
     grid-row: 2/3;
@@ -117,7 +117,7 @@ p {
 
   .policies {
     grid-template-columns: repeat(1, 400px) !important;
-    gap: 80px !important;
+    gap: 40px !important;
   }
 
   .calCon {
@@ -179,7 +179,7 @@ p {
   }
   .about1 {
     grid-template-columns: 360px;
-    grid-template-rows: 480px 450px;
+    grid-template-rows: 480px;
     /* padding-top: 30px; */
     text-align: center;
 
@@ -312,12 +312,12 @@ p {
   .about1 {
     grid-template-columns: 300px;
 
-    grid-template-rows: 540px 250px;
+    grid-template-rows: 440px;
   }
-  .recentClients {
+  /* .recentClients {
     grid-template-columns: 250px;
     grid-template-rows: repeat(6, 220);
-  }
+  } */
   #brand {
     font-size: 20px;
   }
@@ -326,9 +326,10 @@ p {
   }
   .policies {
     grid-template-columns: repeat(1, 290px) !important;
-    grid-template-rows: repeat(5, 320px);
+    grid-template-rows: auto !important;
     /* gap: 190px !important; */
     /* margin-top: 150px !important; */
+    gap: 10px !important;
   }
   .alertCon {
     grid-template-columns: 300px;
@@ -367,18 +368,18 @@ p {
   .navbar-toggler {
     padding: 0 !important;
   }
-  .clientsMain {
+  /* .clientsMain {
     margin-top: 50px;
   }
 
   .recentClients {
     grid-template-columns: 190px;
     grid-template-rows: repeat(6, 180px);
-  }
+  } */
 
   .about1 {
     grid-template-columns: 190px;
-    grid-template-rows: 800px 200px;
+    grid-template-rows: 600px;
     gap: 0;
   }
   .aboutImg img {
