@@ -37,21 +37,11 @@ if(rvaBtn){
 }
 
 
-    
-
 })
 
 nova.addEventListener('click',function(){
     calCon2.style.display='block'
 })
-
-
-
-
-
-
-
-
 
 
 
