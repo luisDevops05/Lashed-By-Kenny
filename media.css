@@ -127,7 +127,7 @@ p {
 
 @media only screen and (max-width: 430px) {
   .about1 {
-    grid-template-rows: 485px 500px;
+    grid-template-rows: 485px;
     gap: 40px;
   }
 
@@ -150,6 +150,25 @@ p {
   .servicesCon {
     grid-template-columns: 200px 200px;
     font-size: 19px;
+  }
+  .heroMG h2 {
+    margin-top: 330px;
+    font-size: 42px;
+  }
+
+  .content h2 {
+    font-size: 65px;
+  }
+  .disclaimer h1 {
+    font-size: 40px;
+  }
+
+  .L h2 {
+    font-size: 60px !important;
+  }
+
+  .calCon {
+    grid-template-columns: 360px;
   }
 }
 
@@ -244,7 +263,7 @@ p {
   }
 
   .calCon {
-    grid-template-columns: 360px;
+    grid-template-columns: 350px;
     grid-template-rows: auto !important;
   }
 
@@ -285,6 +304,9 @@ p {
   .L h3 {
     font-size: 15px !important;
   }
+  .L h2 {
+    font-size: 50px !important;
+  }
   .disclaimer h1 {
     font-size: 30px !important;
     text-align: left !important;
@@ -295,6 +317,12 @@ p {
   }
   .policies {
     gap: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .L h2 {
+    font-size: 50px;
   }
 }
 
