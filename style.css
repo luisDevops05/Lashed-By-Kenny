@@ -54,12 +54,14 @@ body {
 }
 #brand:hover {
   /* color: #78557b !important;  changed the brand color*/
-  color: hsl(335deg 100% 78%) !important;
+  /* color: hsl(335deg 100% 78%) !important; */
+  text-decoration: underline;
 }
 #navLinks a:hover {
   /* color: #78557b !important;
   color: white !important;  changed teh links color to the hovering optin on this color*/
-  color: hsl(335deg 100% 78%) !important;
+  /* color: hsl(335deg 100% 78%) !important; */
+  text-decoration: underline;
 }
 #brandImg {
   vertical-align: middle;
@@ -78,7 +80,7 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #000000a4 !important;
+  background-color: rgba(255, 143, 190, 0.568) !important;
 }
 
 /* dropdown menue background color is set to zero right fix later */
@@ -376,9 +378,8 @@ footer {
 
 .alertCon {
   display: grid;
-  grid-template-columns: 400px;
-  grid-template-rows: 200px 100px;
-  gap: 20px;
+  grid-template-columns: 350px;
+  grid-template-rows: 110px;
   justify-content: center;
   margin-top: 40px;
   margin-bottom: 80px;
@@ -429,7 +430,7 @@ footer {
 
 .bookNowHolder {
   display: grid;
-  grid-template-columns: 350px;
+  grid-template-columns: 350px 350px;
   grid-template-rows: auto;
   justify-content: center;
   text-align: center;
@@ -522,3 +523,7 @@ footer {
 /* #calConMain2 {
   display: none;
 } */
+
+.bookNowFooter {
+  margin-top: 80px;
+}
