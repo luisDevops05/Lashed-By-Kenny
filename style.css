@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Courier+Prime&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Courier+Prime&family=Rouge+Script&display=swap");
 
 p {
   font-family: "Courier Prime", monospace !important;
@@ -50,7 +51,8 @@ body {
 /* brand link */
 #brand {
   color: white !important;
-  font-size: 25px;
+  font-size: 35px;
+  font-family: "Rouge Script", cursive !important;
 }
 #brand:hover {
   /* color: #78557b !important;  changed the brand color*/
@@ -113,13 +115,14 @@ body {
 }
 
 .heroMG h2 {
-  font-size: 60px;
+  font-size: 85px;
   font-stretch: extra-expanded;
   margin-top: 250px;
   color: white;
   text-shadow: 2px 5px 20px rgba(0, 0, 0, 0.787);
 
-  font-family: "Courier Prime", monospace !important;
+  /* font-family: "Courier Prime", monospace !important; */
+  font-family: "Rouge Script", cursive !important;
 }
 
 .heroQ {
