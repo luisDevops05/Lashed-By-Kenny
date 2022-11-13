@@ -172,7 +172,7 @@ p {
   }
 
   .bookNowHolder {
-    grid-template-columns: 170px 170px;
+    grid-template-columns: 170px;
   }
 }
 
