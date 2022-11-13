@@ -430,7 +430,8 @@ footer {
 
 .bookNowHolder {
   display: grid;
-  grid-template-columns: 350px 350px;
+  /* grid-template-columns: 350px 350px; */
+  grid-template-columns: 350px;
   grid-template-rows: auto;
   justify-content: center;
   text-align: center;
