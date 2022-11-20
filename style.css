@@ -540,3 +540,19 @@ footer {
 .calHeading {
   margin-top: 50px;
 }
+
+.privicyH {
+  margin-top: 50px;
+}
+
+#facebook {
+  font-size: 25px;
+}
+
+.M {
+  display: grid;
+  grid-template-columns: 700px;
+  grid-template-rows: 100px 800px;
+  justify-content: center;
+  margin-top: 40px;
+}
