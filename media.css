@@ -133,6 +133,9 @@ p {
     grid-template-columns: 320px;
     grid-template-rows: 90px;
   }
+  .M {
+    grid-template-columns: 360px;
+  }
   .about1 {
     grid-template-rows: 485px;
     gap: 40px;
@@ -235,6 +238,9 @@ p {
   #insta {
     font-size: 18px;
   }
+  #facebook {
+    font-size: 18px;
+  }
   .content p {
     text-align: left;
   }
@@ -335,6 +341,9 @@ p {
 @media only screen and (max-width: 390px) {
   .L h2 {
     font-size: 50px;
+  }
+  .M {
+    grid-template-columns: 320px;
   }
 }
 
